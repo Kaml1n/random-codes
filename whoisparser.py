@@ -12,7 +12,7 @@ for line in lines:
     try:
         domain = whois.query(line)
     except:
-        break
+        continue
     try:   
         date = domain.creation_date
         sys.stdout.write(", date of registration: "+date.strftime('%d/%m/%Y'))
