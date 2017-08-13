@@ -5,4 +5,4 @@ whoisparser.py
 Program downloads domen list from file and describes who and when register each of domen.
 
 p2pChatUdp.py
-I wrote this program based on a "Zrozumiec Programowanie".
+Simple UDP chat based on p2p connection. I wrote this program based on a book ("Zrozumiec Programowanie").
